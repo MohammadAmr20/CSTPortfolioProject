@@ -7,7 +7,7 @@ toggleMenu.addEventListener("click",()=>{
         if(!menu.classList.contains('mobile-view-menu'))
             menu.classList.add('mobile-view-menu');
         else
-        menu.classList.remove('mobile-view-menu');
+            menu.classList.remove('mobile-view-menu');
     }
 });
 
