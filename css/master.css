@@ -241,9 +241,9 @@ header .container nav ul a.active {
 /*End Landing*/
 
 /*Start Services*/
-
-.services .main-heading {
-  margin-top: 30px;
+.services {
+  padding-top: 110px;
+  padding-bottom: 110px;
 }
 
 .flexdiv-container {
@@ -308,7 +308,8 @@ header .container nav ul a.active {
 /*End Services*/
 /*Start Testimonials*/
 .testimonials {
-  padding-top: 50px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   background-color: #ddd;
 }
 .testi {
