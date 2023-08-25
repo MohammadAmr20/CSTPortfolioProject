@@ -17,6 +17,24 @@
 html {
   scroll-behavior: smooth;
 }
+
+  html::-webkit-scrollbar{
+    width: 0.8vw;
+  }
+
+  html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+  html::-webkit-scrollbar-track{
+    background-color: #eee;
+  }
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -540,4 +558,13 @@ header .container nav ul a.active {
   display: flex;
   flex-direction: column;
 }
+
+.right-content h4{
+  margin-bottom: 5px;
+}
+
+.right-content p{
+  margin-bottom: 10px;
+}
+
 /*End Contact*/
